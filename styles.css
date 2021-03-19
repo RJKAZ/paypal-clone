@@ -13,8 +13,45 @@ html {
   font-size: 62.5%;
 }
 
+.logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+}
+
+.p-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.p-2 {
+  font-size: 4.5rem;
+  color: #bbb;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
+.blue-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: #036bb1;
+  color: #fff; 
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 
 /* End of Common Styles */
+
+.front-page{
+  display: none;
+}
 
 /* Section 1 */
 
@@ -42,28 +79,7 @@ html {
   align-items: center;
 }
 
-.navbar-logo {
-  font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 800;
-  color: #fff;
-  position: relative;
-}
 
-.p-1 {
-  font-size: 4.5rem;
-  margin-right: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.p-2 {
-  font-size: 4.5rem;
-  color: #bbb;
-  position: absolute;
-  top: 0.4rem;
-  left: 0.5rem;
-}
 
 .nav-list {
   display: flex;
@@ -178,16 +194,7 @@ html {
   margin: 0 auto 4rem auto;
 }
 
-.blue-btn {
-  width: 35rem;
-  height: 5rem;
-  background-color: #036bb1;
-  color: #fff; 
-  border-radius: 3rem;
-  border: none;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
+
 
 
 /* End of Section 1 */
